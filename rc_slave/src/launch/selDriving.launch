@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="self_driving_rc" name="rc_controller" type="rc_controller.py" output="screen" />
+    <node pkg="self_driving_rc" name="rc_image_receiver"
+type="rc_image_receiver.py" output="screen" />
+    <node pkg="self_driving_rc" name="rc_selfdriving"
+type="rc_selfdriving.py" output="screen" />
+
+
+</launch>
